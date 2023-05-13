@@ -1,0 +1,23 @@
+.Card {
+    width: 300px;
+    padding: 16px;
+    margin: 16px;
+    transition: all 0.3s ease-in-out;
+}
+  
+.Card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px var(--secondary-color);
+}
+  
+.Card p {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.Card .centerColumn{
+    align-items: flex-start;
+}

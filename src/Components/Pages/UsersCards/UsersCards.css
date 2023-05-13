@@ -1,0 +1,7 @@
+.UsersCards {
+	
+}
+
+.UsersCards .centerRow{
+    flex-wrap: wrap;
+}
